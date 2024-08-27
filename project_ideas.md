@@ -10,14 +10,12 @@ Find food spots by mood, cuisine, and fun interactive features.
 ### Paragraph Idea:
 Build a web application that helps users discover new food spots based on their mood, specific cravings, or even ambiance preferences (eg. cozy, romantic, lively). The app could even offer features like customizable food maps showing trending places as well as user reviews, ratings, and shareable food adventures to enhance community engagement. 
 
-## Idea 2
+## Idea 2: Mood-Based Music Playlist Generator
 
-## Mood-Based Music Playlist Generator
-
-## Focus:
+### Focus:
 Choosing the right music for a given mood or activity could be a daunting task sometimes. This app would curate playlists based on users' emotions.
 
-## 10 words or less:
+### 10 words or less:
 Generate very personalized music playlists based on current mood or energy.
 
 
