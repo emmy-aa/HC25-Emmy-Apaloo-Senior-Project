@@ -18,4 +18,7 @@ Choosing the right music for a given mood or activity could be a daunting task s
 ### 10 words or less:
 Generate very personalized music playlists based on current mood or energy.
 
+### Paragraph Idea:
+Develop a web app that helps users find the perfect curated music playlist for their current mood, preferred genre or activity. Users could select a mood (eg. happy, calm, etc.), or an activity (eg. working out, studying), and the app would generate a playlist using an API like Spotify's. The app could also give recommendations based on past listening habits, letting users discover new artists and genres.
+
 
