@@ -78,9 +78,9 @@ The platform I am targetting to develop for my project is a Web Application that
 
 ### 2. Programming Languages: 
 
-- JavaScript (with Node.js) would be the most versatile choice for building both the frontend and backend of your web app, especially if you want real-time interactivity and live updates.
+- JavaScript (with Node.js) would be the most versatile choice for building both the frontend and backend of your web app, especially if I want real-time interactivity and live updates.
   
-- Python (with Django or Flask) is excellent if your project involves AI features like mood-based suggestions, given its rich ecosystem of libraries for machine learning and data science.
+- Python (with Django or Flask) is excellent if  my project involves AI features like mood-based suggestions, given its rich ecosystem of libraries for machine learning and data science.
   
 - Ruby on Rails and PHP (with Laravel) are strong for quick development and getting an MVP out, though they may struggle with real-time, high-performance needs without additional tools.
   
