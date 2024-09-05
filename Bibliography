@@ -8,4 +8,13 @@
 
   Differentiation for your app: Focus more on mood and ambiance through interactive features like mood-based suggestions and AI recommendations rather than static reviews.
 
+### 2. Zomato (https://www.zomato.com)
+ Features: Formerly known as Urbanspoon, Zomato focuses on restaurant listings, user reviews, and features like photo-heavy menus.
+ Pros: Extensive restaurant database with a global reach. Menu photos are particularly useful for smaller businesses without updated websites.
+ Cons: Smaller user base compared to Yelp. Limited to certain regions, with fewer interactive features.
+ Tech Stack: Primarily uses Python, Flask for backend, and PostgreSQL as the database.
+  
+Differentiation: You could incorporate real-time data like live ambiance reviews and interactive options based on real-time user preferences (e.g., quiet spots, energetic environments).
+
+
 
