@@ -1,4 +1,5 @@
 # My Project Ideas
+
 ## Idea 1: Food Spot Finder
 
 ### Focus: 
