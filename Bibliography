@@ -1,1 +1,11 @@
+# Food Spot Finder
+
+### 1. Yelp (https://www.yelp.com)
+  Features: Yelp is one of the largest platforms for finding restaurants and businesses, based on user-generated reviews, ratings, and photos. It includes filters for cuisine, price, location, and more.
+  Pros: Large user base, comprehensive reviews, ratings, and local business partnerships.
+  Cons: Over-reliance on user reviews can lead to biased or outdated information. Yelp's algorithm for ranking reviews has been criticized.
+  Tech Stack: Built using Python, MySQL, and Apache Spark for data processing. ElasticSearch is used for searching reviews.
+
+  Differentiation for your app: Focus more on mood and ambiance through interactive features like mood-based suggestions and AI recommendations rather than static reviews.
+
 
