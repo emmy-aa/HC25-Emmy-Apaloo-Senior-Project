@@ -24,7 +24,7 @@
  
  Tech Stack: Primarily uses Python, Flask for backend, and PostgreSQL as the database.
 
- Relation to my app: Zomato provides restaurant listings, reviews, and detailed menu photos, which is great for discovering new places to eat. However, its approach is largely location- and cuisine-driven. My app could build on Zomato’s database strength but add unique value by using AI to suggest spots based on a user’s mood or craving at a specific time. Zomato’s visual menus are a plus, but my app could push further with customizable food maps showing trending places in real time​.
+ Relation to my app: Zomato provides restaurant listings, reviews, and detailed menu photos, which is great for discovering new places to eat. However, its approach is largely location- and cuisine-driven. My project could build on Zomato’s database strength but add unique value by using AI to suggest spots based on a user’s mood or craving at a specific time. Zomato’s visual menus are a plus, but my app could push further with customizable food maps showing trending places in real time​.
   
  Differentiation: You could incorporate real-time data like live ambiance reviews and interactive options based on real-time user preferences (e.g., quiet spots, energetic environments).
 
@@ -38,7 +38,7 @@ Cons: Not focused solely on restaurants, so navigation can feel cluttered. User 
 
 Tech Stack: TripAdvisor uses Java and Python along with AWS for its cloud infrastructure.
 
-Relation to my app: TripAdvisor's global reach and traveler-focused restaurant recommendations make it a strong player for tourists seeking eateries. While TripAdvisor aggregates reviews and rankings, it lacks the mood-based discovery aspect you aim to introduce. Mine could take inspiration from its massive review base but stand out by offering more personalized, location-specific, and interactive experiences for locals and tourists alike, with an emphasis on ambiance.
+Relation to my app: TripAdvisor's global reach and traveler-focused restaurant recommendations make it a strong player for tourists seeking eateries. While TripAdvisor aggregates reviews and rankings, it lacks the mood-based discovery aspect I aim to introduce. Mine could take inspiration from its massive review base but stand out by offering more personalized, location-specific, and interactive experiences for locals and tourists alike, with an emphasis on ambiance.
 
 Differentiation: Instead of focusing on global users, tailor your app to locals by offering curated experiences based on time of day, current trends, or events happening at restaurants.
 
@@ -52,7 +52,7 @@ Cons: Limited to vegan/vegetarian options, and the UI is dated.
 
 Tech Stack: Uses AngularJS for the frontend and Node.js for the backend.
 
-Relation to my app: HappyCow's focus on vegan and vegetarian communities makes it a niche but valuable tool for specific dietary preferences. Mine can cater to a wider audience by integrating different dietary needs into mood-based recommendations, making it more inclusive. While HappyCow’s community is passionate, its user experience is dated. I can modernize this by allowing users to discover food based on cravings or vibe, while also incorporating community-driven, shareable food adventures.
+Relation to my app: HappyCow's focus on vegan and vegetarian communities makes it a niche but valuable tool for specific dietary preferences. Mine will cater to a wider audience by integrating different dietary needs into mood-based recommendations, making it more inclusive. While HappyCow’s community is passionate, its user experience is dated. I can modernize this by allowing users to discover food based on cravings or vibe, while also incorporating community-driven, shareable food adventures.
 
 Differentiation: Broaden your app to cover all dietary preferences and restrictions with AI-generated personalized recommendations, allowing users to select moods like "adventurous," "comfort food," etc.
 
