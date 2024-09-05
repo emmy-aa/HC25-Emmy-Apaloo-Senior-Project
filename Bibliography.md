@@ -24,7 +24,7 @@ Tech Stack: TripAdvisor uses Java and Python along with AWS for its cloud infras
 
 Differentiation: Instead of focusing on global users, tailor your app to locals by offering curated experiences based on time of day, current trends, or events happening at restaurants.
 
-### 4. HappyCow (https://www.happycow.net))
+### 4. HappyCow (https://www.happycow.net)
 Features: Specializes in vegan and vegetarian restaurants. Includes user reviews and photos.
 Pros: Focuses on a niche market, strong community involvement.
 Cons: Limited to vegan/vegetarian options, and the UI is dated.
