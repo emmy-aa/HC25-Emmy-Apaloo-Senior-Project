@@ -70,6 +70,22 @@ Relation to my app: The Infatuation’s editorial reviews and curated suggestion
 
 Differentiation: Your app could blend editorial-style reviews with real-time user moods and preferences to create dynamic, evolving content that personalizes suggestions.
 
+## Technologies I Might Use
+
+### 1. Project Platform:
+
+The platform I am targetting to develop for my project is a Web Application that focuses on helping users find food spots by mood, cuisine type, ambiance preferences, and other unique experiences like a food map, showing trending places based on location.
+
+### 2. Programming Languages: 
+
+- JavaScript (with Node.js) would be the most versatile choice for building both the frontend and backend of your web app, especially if you want real-time interactivity and live updates.
+  
+- Python (with Django or Flask) is excellent if your project involves AI features like mood-based suggestions, given its rich ecosystem of libraries for machine learning and data science.
+  
+- Ruby on Rails and PHP (with Laravel) are strong for quick development and getting an MVP out, though they may struggle with real-time, high-performance needs without additional tools.
+  
+- Java and Go are perfect for scalability and performance, especially for complex backend systems, but might be overkill if you’re looking for rapid iteration and simpler features at first.
+
 
 
 
