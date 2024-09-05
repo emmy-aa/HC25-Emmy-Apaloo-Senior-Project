@@ -1,7 +1,8 @@
 # Food Spot Finder
 
 ### 1. Yelp (https://www.yelp.com)
-  Features: Yelp is one of the largest platforms for finding restaurants and businesses, based on user-generated reviews, ratings, and photos. It includes filters for cuisine, price, location, and more.
+ 
+  Features: Yelp is a primary source, and one of the largest platforms for finding restaurants and businesses, based on user-generated reviews, ratings, and photos. It includes filters for cuisine, price, location, and more.
  
   Pros: Large user base, comprehensive reviews, ratings, and local business partnerships.
   
@@ -13,7 +14,7 @@
 
 ### 2. Zomato (https://www.zomato.com)
  
- Features: Formerly known as Urbanspoon, Zomato focuses on restaurant listings, user reviews, and features like photo-heavy menus.
+ Features: Formerly known as Urbanspoon, Zomato is a primary source that focuses on restaurant listings, user reviews, and features like photo-heavy menus.
  
  Pros: Extensive restaurant database with a global reach. Menu photos are particularly useful for smaller businesses without updated websites.
  
@@ -25,7 +26,7 @@
 
 ### 3. TripAdvisor (https://www.tripadvisor.com)
 
-Features: Well-known for its travel-based experience reviews, including restaurants. It allows users to sort listings by reviews, popularity, and price.
+Features: Well-known for its travel-based experience reviews, including restaurants. It is a primary source that allows users to sort listings by reviews, popularity, and price.
 
 Pros: Huge global reach and trustworthy user-generated content, great for travelers.
 
@@ -37,7 +38,7 @@ Differentiation: Instead of focusing on global users, tailor your app to locals 
 
 ### 4. HappyCow (https://www.happycow.net)
 
-Features: Specializes in vegan and vegetarian restaurants. Includes user reviews and photos.
+Features: Specializes in vegan and vegetarian restaurants.It is a primary source that also includes user reviews and photos.
 
 Pros: Focuses on a niche market, strong community involvement.
 
@@ -49,7 +50,7 @@ Differentiation: Broaden your app to cover all dietary preferences and restricti
 
 ### 5. The Infatuation (https://www.theinfatuation.com)
 
-Features: Curated restaurant reviews by editors, including a chat feature called "Text Rex" for personalized recommendations.
+Features: A primary source that curates restaurant reviews by editors, including a chat feature called "Text Rex" for personalized recommendations.
 
 Pros: Trusted editorial reviews, offers more human-curated suggestions.
 
