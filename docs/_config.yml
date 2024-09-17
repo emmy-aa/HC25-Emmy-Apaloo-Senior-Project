@@ -1,4 +1,4 @@
-si: false
+lsi: false
 safe: true
 incremental: false
 highlighter: rouge
