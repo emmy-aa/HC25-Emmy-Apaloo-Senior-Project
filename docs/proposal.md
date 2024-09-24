@@ -28,7 +28,7 @@ There are a few web applications that are similar to my project idea. They diffe
 
 *User Reviews & Ratings:* Allowing users to leave detailed reviews, rate food spots, and upload photos to build trust and community insights.
 
-## Technologies I Might Use
+## Technologies /Alternatives I Might Use
 
 ### 1. Project Platform:
 
