@@ -18,15 +18,15 @@ There are a few web applications that are similar to my project idea. They diffe
 
 ## Main Features
 
-*Dietary Preferences & Allergies:* Include filters for vegan, gluten-free, halal, etc., ensuring everyone finds suitable options.
+*Dietary Preferences & Allergies:* Including filters for vegan, gluten-free, halal, etc., ensuring everyone finds suitable options.
 
 *Restaurant & Cuisine Categories:* Quick access to search by specific types like “Italian,” “Sushi,” “Street Food,” etc.
 
-*Ambiance Preview:* Offer a sneak peek of the atmosphere using photos and videos, helping users decide where to go.
+*Ambiance Preview:* Offering a sneak peek of the atmosphere using photos and videos, helping users decide where to go.
 
 *Customizable Food Maps:* An interactive map showing trending and recommended food spots, with filters for cuisine, mood, distance, and ratings.
 
-*User Reviews & Ratings:* Allow users to leave detailed reviews, rate food spots, and upload photos to build trust and community insights.
+*User Reviews & Ratings:* Allowing users to leave detailed reviews, rate food spots, and upload photos to build trust and community insights.
 
 ## Technologies I Might Use
 
@@ -100,12 +100,6 @@ Key Features: Libraries for data manipulation and analysis.
 
 Why Useful: Can help with analyzing user data, restaurant reviews, or trends to improve recommendations.
 
-- TensorFlow or scikit-learn (AI and Machine Learning)
-  
-Key Features: Libraries for building and deploying machine learning models.
-
-Why Useful: Useful for building AI models that offer mood-based restaurant recommendations by analyzing user preferences and patterns.
-
 ## Ruby (Ruby on Rails)
 
 ### Frameworks:
@@ -115,6 +109,41 @@ Why Useful: Useful for building AI models that offer mood-based restaurant recom
 Key Features: Full-stack framework with built-in tools for creating MVC applications, user authentication, database migrations, and more.
 
 Why Useful: Rails is ideal for quickly building an app that manages user reviews, recommendations, and geolocation features.
+
+## Overview of Components and How They Intereact
+
+Here's an overview of the different components of my MoodMunch project and how they connect:
+
+**1. Frontend (User Interface):**
+
+*React.js:* The core library for building the interactive and dynamic UI of MoodMunch. It handles the display of features such as the food map, mood-based filters, restaurant listings, and user reviews.
+
+*Next.js:* If used, it adds server-side rendering and routing capabilities, making the app more SEO-friendly and improving load times.
+
+*Socket.io (Frontend):* Enables real-time updates on the user interface, such as showing trending food spots or real-time changes to the food map based on user activity.
+
+*How It Connects:* These components work together to create a dynamic, responsive user experience. Next.js ensures seamless data fetching from the backend, while Socket.io enables real-time interactivity.
+
+**2. Backend (Server & API Logic):**
+
+*Node.js with Express:* Manages server-side logic, routes incoming requests, handles user authentication, manages API calls, and interfaces with the database. It processes user input like mood selections, location filters, or new reviews.
+
+*Python (Django or Flask):* Alternatively, this can handle backend logic, especially if you implement advanced AI or recommendation systems. It can handle tasks like mood-based suggestions or analyzing user preferences.
+How It Connects: This backend connects with the frontend to serve data, process user inputs, and respond with relevant information (e.g., food spots, reviews, and recommendations).
+
+**3. Real-Time Features:**
+
+*Socket.io:* Works on both the frontend and backend to establish real-time, bi-directional communication. It ensures users see up-to-date information about trending places, live reviews, or mood-based changes.
+
+*How It Connects:* Socket.io runs concurrently with your server (Node.js or Python), facilitating real-time updates between the client and server.
+
+**4. Database:**
+
+*Relational (e.g., PostgreSQL or MySQL):* Stores structured data such as user profiles, restaurant details, reviews, ratings, and user-generated lists.
+
+*NoSQL (e.g., MongoDB):* Optionally used for storing unstructured data, like logs, real-time activity feeds, or mood-based analytics.
+
+*How It Connects:* The backend frameworks (Express, Django, or Flask) connect to the database to read/write data, handle queries, and manage relationships.
 
 
 ### References
