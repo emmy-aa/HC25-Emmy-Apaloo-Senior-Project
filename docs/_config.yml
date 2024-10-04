@@ -13,5 +13,5 @@ plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: [MoodMunch]
-description: [MoodMunch is a food discovery app that helps you find the perfect spot based on your mood, preferred cuisine, and desired ambiance, offering personalized dining recommendations tailored to your cravings.]
+description: [MoodMunch is a food discovery app that helps you find the perfect spot based on your mood,  preferred cuisine, and desired ambiance,  offering personalized dining recommendations tailored to your cravings.]
 
