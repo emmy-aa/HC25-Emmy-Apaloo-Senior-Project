@@ -6,7 +6,7 @@ This web app will help users discover food spots based on mood, preferences, or 
 
 ## Similar Solutions
 
-There are a few web applications that are similar to my project idea. They differ in a variety of different ways, whether it be the demographic they cater to, or the main features they offer. The web applications that are similar to mine are Yelp, Zomato, TripAdvisor, HappyCow, and the Infatuation. 
+There are a few web applications that are similar to my project idea. They differ in a variety of  ways, whether it be the demographic they cater to, or the main features they offer. The web applications that are similar to mine are Yelp, Zomato, TripAdvisor, HappyCow, and the Infatuation. 
 
 **Yelp** is one of the biggest platforms. It's massive collection of user-generated reviews and ratings makes it a valuable resource for discovering restaurants, but it focuses heavily on static user feedback rather than personalized discovery. Like Yelp, I can integrate reviews and ratings, but differentiate by creating a more immersive and playful experience, such as mood-driven searches or interactive maps. [1]
 
