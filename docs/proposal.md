@@ -1,11 +1,11 @@
 # Building a Food Spot Finder Web Application
 
 
-## Summary
+### Summary
 
 This web app will help users discover food spots based on mood, preferences, or unique experiences. The app may even offer features like customizable food maps showing trending places as well as user reviews, ratings, and shareable food adventures to enhance community engagement.
 
-## Similar Solutions
+### Similar Solutions
 
 There are a few web applications that are similar to my project idea. They differ in a variety of  ways, whether it be the demographic they cater to, or the main features they offer. The web applications that are similar to mine are Yelp, Zomato, TripAdvisor, HappyCow, and the Infatuation. 
 
@@ -25,7 +25,7 @@ Its extensive international presence and emphasis on traveler-centric restaurant
 
 Its focus on vegan and vegetarian diets provides a valuable resource for those with specific dietary needs, but it remains relatively niche. My platform will appeal to a wider audience by offering food recommendations based on mood and cravings, making it more inclusive of different dietary preferences. While HappyCow’s community is enthusiastic, its user experience could use a refresh. I intend to modernize this by allowing users to discover food that matches their current mood and cravings, and by incorporating community-driven, shareable food experiences. [4]
 
-## Main Features
+### Main Features
 
 *Dietary Preferences & Allergies:* Including filters for vegan, gluten-free, halal, etc., ensuring everyone finds suitable options.
 
@@ -37,7 +37,7 @@ Its focus on vegan and vegetarian diets provides a valuable resource for those w
 
 *User Reviews & Ratings:* Allowing users to leave detailed reviews, rate food spots, and upload photos to build trust and community insights.
 
-## Technologies I Decided On
+### Technologies I Decided On
 
 **Project Platform:**
 
