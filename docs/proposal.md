@@ -1,7 +1,6 @@
 # Building a Food Spot Finder Web Application
 
 
-
 ## Summary
 
 This web app will help users discover food spots based on mood, preferences, or unique experiences. The app may even offer features like customizable food maps showing trending places as well as user reviews, ratings, and shareable food adventures to enhance community engagement.
