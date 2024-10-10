@@ -1,4 +1,4 @@
-  # Building a Food Spot Finder Web Application
+# Building a Food Spot Finder Web Application
 
 ## Summary
 
