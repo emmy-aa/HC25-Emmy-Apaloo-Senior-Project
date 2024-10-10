@@ -18,7 +18,7 @@ Provides restaurant listings, reviews, and detailed menu photos, which is great 
 
 **TripAdvisor** 
 
-Its extensive international presence and emphasis on traveler-centric restaurant suggestions position it as a leading resource for those searching for dining options. Although TripAdvisor compiles reviews and rankings, it doesn't offer the mood-based discovery feature I plan to implement. My approach could draw from its vast review database but differentiate itself by providing more tailored, location-specific, and interactive experiences that focus on ambiance for both locals and tourists. [3]
+Its extensive international presence and emphasis on traveler-centric restaurant suggestions positions it as a leading resource for those searching for dining options. Although TripAdvisor compiles reviews and rankings, it doesn't offer the mood-based discovery feature I plan to implement. My approach could draw from its vast review database but differentiate itself by providing more tailored, location-specific, and interactive experiences that focus on ambiance for both locals and tourists. [3]
 
 **HappyCow** 
 
