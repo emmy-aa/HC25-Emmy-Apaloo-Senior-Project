@@ -30,6 +30,24 @@ To follow this tutorial, you will need:
 3. Google Cloud Platform account (for API key generation)
 4. React Google Maps API library
 
+
+### Section 1: Setting Up the Project
+
+1. Create a new React app:
+   
+   ```
+   npx create-react-app interactive-food-map
+
+   cd interactive-food-map
+
+   ```
+
+2. Install the required Google Maps API library:
+
+   ```
+   npm install @raect-google-maps/api
+
+   ```
    
 
 
