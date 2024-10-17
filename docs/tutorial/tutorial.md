@@ -45,7 +45,7 @@ To follow this tutorial, you will need:
 2. Install the required Google Maps API library:
 
    ```
-   npm install @raect-google-maps/api
+   npm install @react-google-maps/api
 
    ```
    
