@@ -49,5 +49,62 @@ To follow this tutorial, you will need:
 
    ```
    
+3. Generate your Google Maps API key:
+
+- Go to Google Cloud Console, create a new project, and enable the "Maps JavaScript API."
+- Generate an API key and keep it handy for the next step.
+
+4. Add your API key to your React environment by creating a .env file
+
+- Create a .env file at the root of your project with the foloowing content:
+  
+```
+REACT_APP_GOOGLE_MAPS_API_KEY=your-api-key-here
+
+```
+
+### Section 2: Creating the Map Component
+
+1. Set up a basic Google Map in your React App
+
+   - Open *App.js* and replace its contents with this:
+
+     ```
+     import React from 'react';
+     import { GoogleMap, LoadScript } from '@react-google-maps/api';
+
+     const containerStyle = {
+       width: '100%',
+       height: '400px',
+     };
+
+     const center = {
+       lat: 40.748817,
+       lng: -73.985428, // Coordinates for New York
+     };
+
+     function App() {
+       return (
+         <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
+           <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
+           </GoogleMap>
+         </LoadScript>
+       );
+     }
+
+     export default App;
+     
+   
+ 2. Run the Application:
+
+   ```
+   npm start
+
+   ```
+
+    
+    
+
+
 
 
