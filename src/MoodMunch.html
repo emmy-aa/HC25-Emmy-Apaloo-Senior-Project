@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodMunch</title>
+    <link rel="stylesheet" href="MoodMunch.css">
+</head>
+<body>
+<header>
+    <h1>MoodMunch</h1>
+    <p>Discover food spots based on your mood and preferences!</p>
+</header>
+
+<main>
+    <section id="mood-filters">
+        <h2>Select Your Mood</h2>
+        <div>
+            <button onclick="filterRestaurants('happy')">Happy</button>
+            <button onclick="filterRestaurants('adventurous')">Adventurous</button>
+            <button onclick="filterRestaurants('cozy')">Cozy</button>
+            <button onclick="filterRestaurants('romantic')">Romantic</button>
+        </div>
+    </section>
+
+    <section id="food-map">
+        <h2>Trending Food Spots</h2>
+        <div id="map-container">
+            <!-- Placeholder for interactive food map -->
+        </div>
+    </section>
+
+    <section id="restaurant-list">
+        <h2>Restaurants</h2>
+        <ul id="restaurants">
+            <!-- Restaurants will be populated here dynamically -->
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>Made with ❤️ for food lovers everywhere</p>
+</footer>
+
+<script src="MoodMunch.js"></script>
+</body>
+</html>
+<script src="MoodMunch.js" defer></script>

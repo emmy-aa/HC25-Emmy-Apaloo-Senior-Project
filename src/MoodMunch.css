@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 100px; /* Adjusts for fixed header height */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Mood filter section */
+#mood-filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.mood-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.mood-button:hover {
+    background-color: #e5533b;
+}
+
+/* Restaurant list */
+#restaurant-list {
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#restaurant-list h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#restaurant-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#restaurant-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Footer styling */
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
