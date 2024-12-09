@@ -9,7 +9,8 @@ const Fooddata = [
         price: "$30",
         rating: "3.8",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Indian"
+        category:"Indian",
+        ambiance: "Cozy, Happy"
     },
     {
         id: 2,
@@ -21,7 +22,8 @@ const Fooddata = [
         price: "$25",
         rating: "3.9",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Indian"
+        category:"Indian",
+        ambiance: "Happy, Upscale"
     },
     {
         id: 3,
@@ -33,7 +35,8 @@ const Fooddata = [
         price: "$20 for one",
         rating: "4.2",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Italian"
+        category:"Italian",
+        ambiance: "Happy"
     },
     {
         id: 4,
@@ -45,7 +48,9 @@ const Fooddata = [
         price: "$35 for one",
         rating: "3.8",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Momos"
+        category:"Momos",
+        ambiance: "Cozy"
+
     },
     {
         id: 5,
@@ -57,7 +62,9 @@ const Fooddata = [
         price: "$20",
         rating: "4.0",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Indian"
+        category:"Indian",
+        ambiance:"Cozy, Happy"
+
     },
     {
         id: 6,
@@ -69,7 +76,8 @@ const Fooddata = [
         price: "$22",
         rating: "3.8",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"American"
+        category:"American",
+        ambiance: "Happy"
     },
     {
         id: 7,
@@ -81,7 +89,8 @@ const Fooddata = [
         price: "$15",
         rating: "3.8",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Indian"
+        category:"Indian",
+        ambiance:"Upscale"
     },
     {
         id: 8,
@@ -93,7 +102,8 @@ const Fooddata = [
         price: "$30",
         rating: "3.2",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Indian"
+        category:"Indian",
+        ambiance:"Happy"
     },
     {
         id: 9,
@@ -105,7 +115,8 @@ const Fooddata = [
         price: "$28",
         rating: "3.8",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"American"
+        category:"American",
+        ambiance:"Happy"
     },
 ];
 
