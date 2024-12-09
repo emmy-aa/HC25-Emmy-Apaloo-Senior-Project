@@ -1,3 +1,11 @@
+/**
+ * @file Header.js
+ * @description This file defines the Header component, which represents the navigation bar of the application.
+ * It uses Bootstrap's Navbar for styling and includes navigation links for Home, Features, and Pricing.
+ * The Header component is rendered at the top of the application.
+ */
+
+
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
