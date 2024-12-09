@@ -1,3 +1,11 @@
+/**
+ * @file style.css
+ * @description This file contains custom styles for the application.
+ * It includes styles for cards, item details, hover effects, and responsive design for different screen sizes.
+ * The styles enhance the visual appearance of components such as restaurant cards and item details.
+ */
+
+
 /* General Styling */
 body {
     background-color: #f8f9fa;
