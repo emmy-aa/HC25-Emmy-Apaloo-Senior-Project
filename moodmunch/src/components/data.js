@@ -1,7 +1,7 @@
 const Fooddata = [
     {
         id: 1,
-        rname: "Massala Theoryy",
+        rname: "Indian Garden Restaurant",
         imgdata: "https://b.zmtcdn.com/data/pictures/9/18857339/8f53919f1175c08cf0f0371b73704f9b_o2_featured_v2.jpg?output-format=webp",
         address: "North Indian, Biryani, Mughlai",
         delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
@@ -13,7 +13,7 @@ const Fooddata = [
     },
     {
         id: 2,
-        rname: "Jugaadi Adda",
+        rname: "Clay Oven Indian Restaurant",
         imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/19295245/089cbcf1d3307542c72f77272556b28b_o2_featured_v2.jpg?output-format=webp",
         address: "Street Food",
         delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
@@ -49,7 +49,7 @@ const Fooddata = [
     },
     {
         id: 5,
-        rname: "Jassi De Parathe",
+        rname: "Delhi Palace Restaurant",
         imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/110225/3978e28854b7496dbef9496546734811_o2_featured_v2.jpg",
         address: "North Indian",
         delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
@@ -57,19 +57,19 @@ const Fooddata = [
         price: "$20",
         rating: "4.0",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Italian"
+        category:"Indian"
     },
     {
         id: 6,
         rname: "Emmy's Latenight Meals",
         imgdata: "https://b.zmtcdn.com/data/pictures/5/113895/3c06f6fbb8f667a2537dfdb6f060dc8b_o2_featured_v2.jpg",
-        address: "Wraps FastFood, Chines",
+        address: "Wraps FastFood,",
         delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
         somedata: " 1100 + order placed from here recently",
         price: "$22",
         rating: "3.8",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Chinese"
+        category:"American"
     },
     {
         id: 7,
@@ -105,7 +105,7 @@ const Fooddata = [
         price: "$28",
         rating: "3.8",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Chinese"
+        category:"American"
     },
 ];
 
