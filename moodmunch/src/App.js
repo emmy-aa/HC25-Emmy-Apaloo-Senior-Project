@@ -5,12 +5,12 @@ import "./components/style.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  return (
-      <>
-        <Header />
-        <Home />
-      </>
-  );
+    return (
+        <>
+            <Header />
+            <Home />
+        </>
+    );
 }
 
 export default App;
