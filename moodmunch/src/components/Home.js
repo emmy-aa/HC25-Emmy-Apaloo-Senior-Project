@@ -1,3 +1,12 @@
+/**
+ * @file Home.js
+ * @description This file contains the Home component, which is the main content area of the application.
+ * It dynamically renders a list of restaurants using the `Fooddata` array.
+ * The component includes functionality to filter restaurants by category and reset the list to show all items.
+ * It also utilizes Bootstrap Cards for the visual representation of restaurant details.
+ */
+
+
 import React, {useState} from 'react'
 import Fooddata from './data'
 import Card from 'react-bootstrap/Card'
