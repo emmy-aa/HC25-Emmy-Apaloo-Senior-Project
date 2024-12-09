@@ -1,3 +1,10 @@
+/**
+ * @file data.js
+ * @description This file contains the static data array `Fooddata` which stores information about various restaurants.
+ * Each object in the array represents a restaurant with properties such as name, image URL, category, price, rating, and more.
+ * This data is used to dynamically render restaurant cards in the application.
+ */
+
 const Fooddata = [
     {
         id: 1,
