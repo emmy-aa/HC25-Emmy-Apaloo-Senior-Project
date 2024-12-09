@@ -1,3 +1,10 @@
+/**
+ * @file App.css
+ * @description This file contains the main application-wide styles.
+ * It includes basic styles for the App container and animations for the app title.
+ */
+
+
 .App {
   text-align: center;
 }
