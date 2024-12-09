@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 import Fooddata from './data'
 import Card from 'react-bootstrap/Card'
 import Dropdown from 'react-bootstrap/Dropdown'
+
+
+
 
 const Home = () => {
 
@@ -11,8 +14,8 @@ const Home = () => {
     const filterByCategory = (category) => {
         if (category === 'All') {
             setMenu(Fooddata)
-        }else{
-            const updatedItems = Fooddata.filter((cur)=>cur.category === category)
+        } else {
+            const updatedItems = Fooddata.filter((cur) => cur.category === category)
             setMenu(updatedItems);
         }
 
@@ -37,8 +40,15 @@ const Home = () => {
 
     return (
         <>
+            <section className='title_section text-center my-4'>
+                <h1 className='moodmunch-title'>
+                    🍴Mood<span className="highlight">Munch</span>
+                </h1>
+                <p className="subtitle">Discover food spots tailored to your mood! 🌟</p>
+            </section>
+
             <section className='filter_section container mt-4'>
-                <h2 className='text-center mb-3' style={{ fontWeight: 400 }}>MoodMunch</h2>
+                <h2 className='text-center mb-3' style={{fontWeight: 400}}>MoodMunch</h2>
                 <div className="btn-container d-flex justify-content-around">
                     <button className="btn btn-primary" onClick={() => filterByCategory("Indian")}>Indian</button>
                     <button className="btn btn-success" onClick={() => filterByCategory("Italian")}>Italian</button>
@@ -67,8 +77,9 @@ const Home = () => {
                     <div className="row d-flex justify-content-center align-items-center">
                         {menu.map((e) => {
                             return (
-                                <Card key={e.id} style={{ width: '22rem', border: "none" }} className="mx-2 mt-4 card_style">
-                                    <Card.Img variant="top" src={e.imgdata} style={{ height: "16rem" }} className='mt-3' />
+                                <Card key={e.id} style={{width: '22rem', border: "none"}}
+                                      className="mx-2 mt-4 card_style">
+                                    <Card.Img variant="top" src={e.imgdata} style={{height: "16rem"}} className='mt-3'/>
                                     <Card.Body>
                                         <Card.Title>{e.rname}</Card.Title>
                                         <Card.Text>
