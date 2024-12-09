@@ -1,3 +1,10 @@
+/**
+ * @file index.css
+ * @description This file contains global CSS styles for the application.
+ * It sets up basic typography, layout, and default styles for the entire app.
+ */
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
