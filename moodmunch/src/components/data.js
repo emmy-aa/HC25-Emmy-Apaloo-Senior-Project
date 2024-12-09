@@ -32,7 +32,7 @@ const Fooddata = [
         address: "Pizza, Fast Food, Pasta",
         delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
         somedata: " 650 + order placed from here recently",
-        price: "$20 for one",
+        price: "$20",
         rating: "4.2",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
         category:"Italian",
@@ -118,6 +118,22 @@ const Fooddata = [
         category:"American",
         ambiance:"Happy"
     },
+    {
+        id: 10,
+        rname: "Red On Main",
+        imgdata:"https://images.squarespace-cdn.com/content/v1/65316a0a22bbec78621b35c9/9053fc08-fe8e-4067-a5b3-9eba8f5277a0/121223+Red+On+Main+7.jpg?format=2500w",
+        address: "Burger, Sandwich, Cajun-American",
+        delimg:"https://images.squarespace-cdn.com/content/v1/65316a0a22bbec78621b35c9/9053fc08-fe8e-4067-a5b3-9eba8f5277a0/121223+Red+On+Main+7.jpg?format=2500w",
+        somedata:"3000 + order placed from here recently",
+        price: "$15 - $60",
+        rating: "4.5",
+        arrimg:"https://images.squarespace-cdn.com/content/v1/65316a0a22bbec78621b35c9/ca2ff267-0d4e-494d-afee-cf25f3cb8193/121223+Red+On+Main+8.jpg?format=2500w",
+        category:"American",
+        ambiance:"Happy, Cozy"
+
+    }
+
+
 ];
 
 export default Fooddata;
