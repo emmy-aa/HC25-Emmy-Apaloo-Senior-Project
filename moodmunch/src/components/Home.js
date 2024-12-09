@@ -3,9 +3,6 @@ import Fooddata from './data'
 import Card from 'react-bootstrap/Card'
 import Dropdown from 'react-bootstrap/Dropdown'
 
-
-
-
 const Home = () => {
 
     const [menu, setMenu] = useState(Fooddata);
@@ -25,7 +22,7 @@ const Home = () => {
         if (ambiance === "All") {
             setMenu(Fooddata);
         } else {
-            // Assume `ambiance` property is added to Fooddata
+            // `ambiance` property is added to Fooddata
             const updatedItems = Fooddata.filter((cur) => cur.ambiance === ambiance);
             setMenu(updatedItems);
         }
@@ -46,6 +43,23 @@ const Home = () => {
                 </h1>
                 <p className="subtitle">Discover food spots tailored to your mood! 🌟</p>
             </section>
+
+            {/* Search Input Functionality*/}
+            <div className="search-bar mb-3">
+                <input
+                    type="text"
+                    placeholder="Search by name or cuisine..."
+                    className="form-control"
+                    onChange={(e) => {
+                        const query = e.target.value.toLowerCase();
+                        setMenu(Fooddata.filter(item =>
+                            item.rname.toLowerCase().includes(query) ||
+                            item.category.toLowerCase().includes(query)
+                        ));
+                    }}
+                />
+            </div>
+
 
             <section className='filter_section container mt-4'>
                 <h2 className='text-center mb-3' style={{fontWeight: 400}}>MoodMunch</h2>
