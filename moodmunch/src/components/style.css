@@ -1,67 +1,157 @@
-.card_style{
+/* General Styling */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+button {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Card Styling */
+.card_style {
     cursor: pointer;
-    transition: .3s;
+    transition: 0.3s ease-in-out;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
-.smalltrash{
-    display: none;
+.card_style:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
 }
 
-
-.card_style:hover{
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+.card_style img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
-.iteamsdetails{
-    max-width: 800px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
-}
-.items_img{
-    flex: .4;
-}
-.items_img img{
-    width: 20rem;
-    border-radius: 5px;
+/* Navbar */
+.navbar {
+    background-color: #2c3e50 !important;
 }
 
-.details{
-    flex: .5;
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #f39c12 !important;
 }
 
-.rating{
-    background-color: green;
+.navbar .nav-link {
+    color: #ecf0f1 !important;
+    font-size: 1rem;
 }
 
-@media (max-width:772px){
-    .iteamsdetails{
+.navbar .nav-link:hover {
+    color: #f39c12 !important;
+}
+
+/* Buttons */
+.btn-container .btn {
+    margin: 5px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #1e8449;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+    color: #fff;
+}
+
+/* Food List Section */
+.iteam_section {
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.row {
+    margin: 0;
+    gap: 20px;
+}
+
+.card_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #34495e;
+}
+
+.card_text {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .btn-container .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .card_style {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .btn-container {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-    }
-}
-
-@media (max-width:450px){
-    .smalltrash{
-        display: block;
-    }
-    .largetrash{
-        display:none;
-    }
-    .emptycart_img{
-        margin-right: 50px;
-    }
-    .smallclose{
-        display: none;
     }
 
-    /* individual iteams details */
-
-    .items_img img{
-        width: 16rem;
+    .btn-container .btn {
+        margin: 10px 0;
     }
 
+    .card_style img {
+        height: auto;
+        max-height: 200px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
 }
