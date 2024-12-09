@@ -12,6 +12,41 @@ h2 {
     color: #2c3e50;
 }
 
+/* Title Section Styling */
+.title_section {
+    margin-bottom: 2rem;
+}
+
+.moodmunch-title {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorChange 3s infinite;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Highlight for Munch */
+.highlight {
+    color: #ff5f5f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation for Title */
+@keyframes colorChange {
+    0% { color: #ff7e5f; }
+    50% { color: #feb47b; }
+    100% { color: #ff7e5f; }
+}
+
+
 /* Filter Section Styling */
 .filter_section {
     text-align: center;
