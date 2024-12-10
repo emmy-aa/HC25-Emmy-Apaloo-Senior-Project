@@ -4,7 +4,7 @@ import Home from "../components/Home";
 test("renders all restaurants by default", () => {
     render(<Home />);
     const cards = screen.getAllByRole("img");
-    expect(cards.length).toBe(10); // Expecting 10 items from Fooddata
+    expect(cards.length).toBe(12); // Expecting 12 items from Fooddata
 });
 
 test("filters restaurants by category", () => {
@@ -24,5 +24,5 @@ test("shows all restaurants when 'All' button is clicked", () => {
     fireEvent.click(allButton);
 
     const cards = screen.getAllByRole("img");
-    expect(cards.length).toBe(10);
+    expect(cards.length).toBe(12);
 });
