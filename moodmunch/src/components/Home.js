@@ -67,7 +67,7 @@ const Home = () => {
                 <h2 className='text-center mb-3' style={{ fontWeight: 400 }}>MoodMunch</h2>
                 <div className="btn-container d-flex justify-content-around">
                     {['Indian', 'Italian', 'American', 'All'].map(category => (
-                        <FilterButton key={category} label={category} onClick={() => filterMenu('category', category)} className={category === 'All' ? 'btn-secondary' : `btn-${category.toLowerCase()}`} />
+                        <FilterButton key={category} label={category} onClick={() => filterMenu('category', category)} className={category === 'All', 'Indian', 'Italian', 'American' ? 'btn-secondary' : `btn-${category.toLowerCase()}`} />
                     ))}
                 </div>
 
@@ -85,10 +85,7 @@ const Home = () => {
                         <FilterButton key={type} label={`Sort by ${type.charAt(0).toUpperCase() + type.slice(1)}`} onClick={() => sortBy(type)} className="btn-warning mx-2" />
                     ))}
                 </div>
-                <div>
-                    <h2>Restaurant Locations</h2>
-                    <MapComponent restaurants={menu} />
-                </div>
+
 
             </section>
 
