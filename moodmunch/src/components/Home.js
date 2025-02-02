@@ -96,6 +96,9 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <footer className="footer mt-4">
+                <p>&copy; 2025 MoodMunch. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </footer>
         </>
     );
 };
