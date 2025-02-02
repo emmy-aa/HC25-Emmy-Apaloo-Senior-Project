@@ -11,6 +11,7 @@ import React, { useState } from 'react';
 import Fooddata from './data';
 import Card from 'react-bootstrap/Card';
 import Dropdown from 'react-bootstrap/Dropdown';
+import MapComponent from './MapComponent';
 
 const FilterButton = ({ label, onClick, className }) => (
     <button className={`btn ${className}`} onClick={onClick}>{label}</button>
@@ -84,6 +85,11 @@ const Home = () => {
                         <FilterButton key={type} label={`Sort by ${type.charAt(0).toUpperCase() + type.slice(1)}`} onClick={() => sortBy(type)} className="btn-warning mx-2" />
                     ))}
                 </div>
+                <div>
+                    <h2>Restaurant Locations</h2>
+                    <MapComponent restaurants={menu} />
+                </div>
+
             </section>
 
             <section className='item_section mt-3 container'>
