@@ -11,7 +11,7 @@ import React, { useState } from 'react';
 import Fooddata from './data';
 import Card from 'react-bootstrap/Card';
 import Dropdown from 'react-bootstrap/Dropdown';
-import MapComponent from './MapComponent';
+
 
 const FilterButton = ({ label, onClick, className }) => (
     <button className={`btn ${className}`} onClick={onClick}>{label}</button>
