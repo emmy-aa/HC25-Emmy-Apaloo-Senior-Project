@@ -39,7 +39,8 @@ const Home = () => {
 
     const sortBy = (type) => {
         const sortedMenu = [...menu].sort((a, b) =>
-            type === 'rating' ? b.rating - a.rating : parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1))
+            type === 'rating' ? b.rating - a.rating : parseFloat(a.price.replace('$', '').split
+            ('-')[0]) - parseFloat(b.price.replace('$', '').split('-')[0])
         );
         setMenu(sortedMenu);
     };
@@ -58,7 +59,11 @@ const Home = () => {
                     className="form-control"
                     onChange={(e) => {
                         const query = e.target.value.toLowerCase();
-                        setMenu(Fooddata.filter(item => item.rname.toLowerCase().includes(query) || item.category.toLowerCase().includes(query)));
+                        setMenu(Fooddata.filter(item =>
+                            item.rname.toLowerCase().includes(query) ||
+                            item.category.toLowerCase().includes(query) ||
+                            item.address.toLowerCase().includes(query) // Allows searching by location
+                        ));
                     }}
                 />
             </div>
@@ -67,7 +72,12 @@ const Home = () => {
                 <h2 className='text-center mb-3' style={{ fontWeight: 400 }}>MoodMunch</h2>
                 <div className="btn-container d-flex justify-content-around">
                     {['Indian', 'Italian', 'American', 'All'].map(category => (
-                        <FilterButton key={category} label={category} onClick={() => filterMenu('category', category)} className={category === 'All', 'Indian', 'Italian', 'American' ? 'btn-secondary' : `btn-${category.toLowerCase()}`} />
+                        <FilterButton
+                            key={category}
+                            label={category}
+                            onClick={() => filterMenu('category', category)}
+                            className={category === 'All' ? 'btn-secondary' : `btn-${category.toLowerCase()}`}
+                        />
                     ))}
                 </div>
 
