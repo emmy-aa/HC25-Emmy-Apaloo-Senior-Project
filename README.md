@@ -18,3 +18,13 @@ A web application that helps users discover restaurants based on categories, rat
 - Styling: Custom CSS for advanced UI/UX features
 
 
+![2DC7D135-9AD5-46BD-B2BE-4DE25FE6F389_1_201_a](https://github.com/user-attachments/assets/18a374c9-c700-46f3-9c69-83cc3571d457)
+
+
+The project was deployed using Vercel. It can be viewed here: (https://hc-25-emmy-apaloo-senior-project.vercel.app/)
+
+
+
+
+
+
