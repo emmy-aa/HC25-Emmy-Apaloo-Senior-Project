@@ -235,48 +235,6 @@ button {
         font-size: 1.5rem;
     }
 }
-/* Custom Category Buttons */
-.btn-indian {
-    background-color: #ff5733; /* Vibrant Orange-Red */
-    color: white;
-    font-weight: bold;
-    border-radius: 25px;
-    padding: 10px 20px;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-indian:hover {
-    background-color: #e04d2b; /* Darker shade on hover */
-    transform: scale(1.05);
-}
-
-.btn-italian {
-    background-color: #3498db; /* Italian Blue */
-    color: white;
-    font-weight: bold;
-    border-radius: 25px;
-    padding: 10px 20px;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-italian:hover {
-    background-color: #2980b9; /* Darker Blue on hover */
-    transform: scale(1.05);
-}
-
-.btn-american {
-    background-color: #27ae60; /* Fresh Green */
-    color: white;
-    font-weight: bold;
-    border-radius: 25px;
-    padding: 10px 20px;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-american:hover {
-    background-color: #1e8449; /* Darker Green on hover */
-    transform: scale(1.05);
-}
 
 
 /* Footer Styling */
