@@ -11,6 +11,7 @@ import React, { useState } from 'react';
 import Fooddata from './data';
 import Card from 'react-bootstrap/Card';
 import Dropdown from 'react-bootstrap/Dropdown';
+import './style.css';
 
 
 const FilterButton = ({ label, onClick, className }) => (
